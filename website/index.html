@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="scripts\css\bootstrap.min.css">
+    
+    <!-- This is where the fonts should go -->
+    <link rel="stylesheet" href="scripts\fonts.css">
+    <!-- I only used one font so if you want to use more just download them and follow my font format-->
+	
+	<!--Eu am adugat fonturile astea pentru iconita de download -Costin -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Saggezza Employee App</title>
+
+
+    <!-- IF YOU WANT TO JUMP INTO SECTIONS JUST ctrl + F and find Panel -->
+    <!-- There should be a total of 4 Panels, Employee, Features, User Guide, and FAQ -->
+
+    <!-- BTW, I also hardcoded every style hence why there is no separate css files for individual styles -->
+    <!-- You can clearly see the styles from the "styles" tags inside the divs and components -->
+
+    <!-- IF YOU WANT TO CUSTOMIZE MORE THE FRAMEWORK (BOOTSTRAP) DOCUMENTATIONS IS YOUR BESTFRIEND -->
+    <!-- https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+    <!-- i also went for a material design, you can add your hexagon wallpapers inside the divs if you want -->
+
+  </head>
+  <body>
+    <!-- This home div here is to prevent the navbar from displaying over the content when the corresponding link is clicked -->
+    <div  id="home"></div> 
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="#">
+            <img src="src/logo.jpg" style="height:80%;width:80%;">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 20px">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+			</a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto" style="text-align: center;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#ug">User Guide</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#faq">FAQ</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+
+
+        <!-- EMPLOYEE FRONT PAGE -->
+        <!-- PANEL #1 -->
+
+
+        <div id="home" style="text-align: center; margin-top: 20px;">
+          <div>
+              <h1 Style="font-family:Cabin;color:#001064;font-size:50px;">The Employee Management App</h1><br>
+          </div>
+          
+          <!-- this one here is just a grid inside the Bootstrap 4 Container, (I think) they automatically resize from the contents inside -->
+          <div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm" Style="margin-bottom: 10px;">
+                    <img src="https://gitlab.ncl.ac.uk/uploads/team10/team10-20182019/8e8d436bd3/AppProfile.jpg" style="height:100%;width:80%;">
+                </div>
+                <div class="col-sm" Style="margin-bottom: 10px;">
+                    <img src="https://gitlab.ncl.ac.uk/uploads/team10/team10-20182019/a884a93a76/NewFrontPage.jpeg" style="height:100%;width:80%;">
+                </div>
+                <div class="col-sm" Style="margin-bottom: 10px;">
+                    <img src="https://gitlab.ncl.ac.uk/uploads/team10/team10-20182019/0b237e086d/AppSearch.jpg" style="height:100%;width:80%;">
+                </div>
+              </div>
+            </div>
+
+            <!-- This div tag with the features ID is placed here so that the navbar doesn't overlap the features title
+                 when clicked -->
+
+            <div id="features"></div> 
+
+
+            <div style="margin-top: 50px; margin-bottom: 50px">
+                <button type="button" class="btn btn-outline-success" onclick="window.location.href = 'Team10EmployeeManagement.apk';"><i class="fa fa-download"></i> Direct Download</button>
+            </div>
+            
+             <div style="margin-top: 50px; margin-bottom: 50px">
+                <button type="button" class="btn btn-outline-success" onclick="window.location.href = 'https://drive.google.com/open?id=1Ho-CflK7R8h8XU4egOE9RvQXwwYQBDPm';"><i class="fa fa-download"></i> Download with Google Drive</button>
+            </div>
+            
+          </div>
+
+
+          <!-- KEY FEATURES -->
+          <!-- PANEL #2 -->
+          <!-- CIRCULAR MATERIAL ICONS, YOU CAN JUST CHANGE IT AT FLATICON.COM or any icon websites you prefer -->
+
+
+
+          <div style="margin-top: 75px;margin-bottom: 25px;">
+              <h1 Style="font-family:Cabin;color:#001064;font-size:30px;">Key Features</h1><br>
+          </div>
+          
+
+          <div>
+            <!-- This section here is one big grid and for each grid, there is an icon, title, and subtitle -->
+            <!-- if you want to add more just copy and paste it but watch out for the columns and rows because they are important if 
+            you want symmetry -->
+            <div class="container"> 
+              <div class="row" style="margin-bottom: 50px;">
+
+                <div class="col-lg" style="text-align: center;">
+                
+                  <img src="src/boy.png" style="height:128px;width:128px;">
+
+                  <h4 style="color:#001064">Individual Profiles</h4>
+                  <p>Gain control over your own information</p>
+
+
+                </div>
+
+                <div class="col-lg">
+
+                  <img src="src/teamwork.png" style="height:128px;width:128px;">
+
+                  <h4 style="color:#001064">Create Teams</h4>
+                  <p>Managers can easily sort and organise teams</p>
+                  
+                </div>
+
+                
+              </div>
+              <div class="row" style="margin-bottom: 30px;">
+
+                <div class="col-lg">
+
+                    <img src="src/seo.png" style="height:128px;width:128px;">
+  
+                    <h4 style="color:#001064">Advanced Searches</h4>
+                    <p>Additional Filters allow for more precise searching</p>
+                    
+    
+                  </div>
+
+                <div  class="col-lg">
+                  
+                  <img src="src/database.png" style="height:128px;width:128px;">
+
+                  <h4 style="color:#001064">Scalable Database</h4>
+                  <p>Fully scalable database allows the app to be used
+                      with a range of company sizes</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Again, this ug ID is here to fix the overlapping of the navbar :) -->
+          <div id="ug" style="margin-top: 100px;margin-bottom: 10px;"><br></div>
+
+          <!-- USER GUIDE  -->
+          <!-- PANEL #3 -->
+
+          <div style="margin-top: 100px;margin-bottom: 25px;">
+              <h1 Style="font-family:Cabin;color:#001064;font-size:30px;">Employee Management App User Guide</h1>
+          </div>
+
+              <div class="container" >
+
+                <p>The employee management guide is easy to use, and simple to navigate.
+                  However, to get the best experience from the app, we recommend you download and read the Apps User Guide.
+                  This Guide contains all the information you need to get the most from your use of the app!
+                </p>
+
+              </div>
+              <button type="button" class="btn btn-outline-primary" onclick="window.location.href = 'User Guide Team 10.pdf';"><i class="fa fa-download"></i> Download the User Guide</button>
+              
+              
+
+          
+
+          <!-- FREQUENTLY ASKED QUESTIONS  -->
+          <!-- PANEL #4 -->
+
+
+          <!-- info: So the FAQ panel is just one huge accordion in the Bootstrap 4 Docs -->
+
+          <div id= "faq" style="margin-top: 150px;margin-bottom: 25px;">
+              <h1 Style="font-family:Cabin;color:#001064;font-size:30px;">Frequently Asked Questions</h1>
+          </div>
+          <div class="container">
+              <div class="accordion" id="accordionExample" style="margin-bottom: 50px;">
+                <!-- THE CARD AND ITEM COMMENTS WILL LET WHOEVER IS VIEWING THE CODE SEE THE DIVISION BETWEEN THE TITLE AND THE CONTENT EASIER :D :D -->
+
+                <!-- card FAQ #1 -->
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          What happens if I forget my password?
+                        </button>
+                      </h2>
+                    </div>
+                <!-- item -->
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        You will need to contact an administrator, who can reset your password.
+                      </div>
+                    </div>
+                  </div>
+
+
+                <!-- card FAQ #2-->
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Do I require an internet connection?
+                        </button>
+                      </h2>
+                    </div>
+                 <!-- item -->
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        You require an internet to make changes and update but you can see your most recent read only version without it.
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!-- card FAQ #3-->
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          How are new employees added to the database?
+                        </button>
+                      </h2>
+                    </div>
+                  <!-- item -->
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        An admin has to add new users to the database.
+                      </div>
+                    </div>
+                  </div>
+
+                   <!-- card FAQ #4-->
+                   <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            What devices can I use it on?
+                          </button>
+                        </h2>
+                      </div>
+                    <!-- item -->
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Our app is currently only available on Android devices.
+                        </div>
+                      </div>
+                    </div>
+
+
+                </div>
+          </div>
+
+
+
+          <div class="text-align:center"> 
+            Created by: Team <img src="src/Number10.png" style="height:50px;width:50px;">
+          </div>
+        </div>
+    
+
+
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

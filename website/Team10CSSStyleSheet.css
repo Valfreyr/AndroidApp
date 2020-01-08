@@ -1,0 +1,161 @@
+body{
+background-color:#E7F2F6;
+width:100%;
+padding:0;
+margin:0;
+overflow-x:hidden;
+}
+
+#top{
+background-color:#ffffff;
+width:100%;
+padding:0;
+margin:0;
+}
+
+#navBarwrapper{
+width:100%;
+position: fixed;
+z-index:20;
+}
+
+.navbar {
+margin-bottom:0;
+border-radius:0;
+background-color: #ffffff;
+padding: 1% 0;
+font-size: 14;
+border:0;
+}
+
+.navbar-brand {
+float: left;
+padding: 0 15px 15px;
+}
+
+.navbar-inverse .navbar-nav li a{
+color: #000000;
+background-color:#ffffff;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+color: #ffffff;
+background-color:#000000;
+}
+
+.navbar-inverse .navbar-nav .active a {
+background-color:#ffffff;
+color:#000000;
+}
+	
+.navbar-toggle{
+background-color:#000000;
+}
+
+.icon-bar {
+background-color:#000000;
+}
+
+#mainPage{
+background-color:#E7F2F6;
+width:100%;
+padding:0;
+margin:0;
+}
+
+#title{
+padding-top:5%;
+text-align:center;
+}
+
+#navWrapper{
+text-align:center;
+padding:0;
+margin:0;
+background-color:#E7F2F6;
+background-image:url("https://gitlab.ncl.ac.uk/uploads/team10/team10-20182019/b73fce899c/BlueHexagons.png");
+background-size: contain;
+background-repeat:no-repeat;
+}
+
+#myCarousel{
+display:inline-block;
+}
+
+.carousel-caption{
+top:50%;
+transform: translateY(-50%);
+text-transform: uppercase;
+}
+
+.btn{
+font-size:18px;
+color:#FFFFFF;
+padding:12px 22px;
+background: #000000;
+border:2px solid #000000;
+}
+
+.carousel-inner{
+text-align:center;
+}
+
+.item{
+display:inline-block;
+}
+
+#Features{
+text-align: center;
+padding:0;
+margin:0;
+
+}
+
+#columnWrapper{
+	display:inline-block;
+	text-align: center;
+	-webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+		  -webkit-column-width: 400px;
+     -moz-column-width: 400px;
+          column-width: 400px;
+}
+
+.individualfeature{
+width:50%;
+display:inline-block;
+}
+
+#UserGuide{
+text-align:center;
+padding-left:5%;
+padding-right:5%;
+}
+
+#FAQ{
+text-align:center;
+}
+
+#FAQWrapper{
+text-align:left;
+display:inline-block;
+}
+
+.indFAQ{
+text-align:left;
+display:inline-block;
+padding-left:5%;
+padding-right:5%;
+}
+
+#BottomBackground{
+padding:0;
+margin:0;
+width:100%
+background-color:#E7F2F6;
+background-image:url("https://gitlab.ncl.ac.uk/uploads/team10/team10-20182019/c787ee5bae/BlueHexagonsBottom.png");
+background-position:right bottom;
+background-size: contain;
+background-repeat:no-repeat;
+}
